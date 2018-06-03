@@ -1,0 +1,26 @@
+==================
+Dash Doc CLI
+==================
+
+The Dash Doc CLI is a program for searching and browsing dash docsets.
+
+
+Installation
+============
+
+pip install dashdoc
+
+Examples
+=========
+::
+
+    dashdoc printf
+    dashdoc python::print
+
+    dashdoc -list
+    dashdoc --install Python2
+
+Why another dash browser?
+------------------
+
+why not? I use linux and I don't like QT, which Zeal uses.
