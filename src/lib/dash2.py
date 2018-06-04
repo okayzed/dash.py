@@ -62,7 +62,7 @@ def plutil(*args):
 
 
 #----------------------------------------------------------------------
-# Dash DocSet 
+# Dash DocSet
 #----------------------------------------------------------------------
 class DashDoc (object):
 
@@ -114,7 +114,7 @@ class DashDoc (object):
 			os.remove(tmpname)
 			return data
 		data = plistlib.readPlist(filename)
-		return data	
+		return data
 
 	def connection (self):
 		if self._conn is None:
@@ -146,7 +146,7 @@ class DashDoc (object):
             rows = [ n for n in cursor ]
             cursor = None
             return rows
-        
+
 	def search (self, pattern, like = False):
 		conn = self.connection()
 		cursor = conn.cursor()
