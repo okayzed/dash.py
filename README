@@ -2,13 +2,21 @@
 Dash Doc CLI
 ==================
 
-The Dash Doc CLI is a program for searching and browsing dash docsets.
+The dash.py cli is a program for searching and browsing dash docsets.
 
+status: alpha, still in development
+
+
+Running Locally
+===============
+::
+    python -m src.main
 
 Installation
 ============
-
-pip install dashdoc
+::
+    # not uploaded to pip yet
+    # pip install dashdoc
 
 Examples
 =========
@@ -17,10 +25,15 @@ Examples
     dashdoc printf
     dashdoc python::print
 
-    dashdoc -list
+TODO:
+=====
+::
+    dashdoc --list
     dashdoc --install Python2
 
 Why another dash browser?
 ------------------
 
-why not? I use linux and I don't like QT, which Zeal uses.
+why not? I use linux and I don't like QT, which Zeal uses. I think that this
+program will help me reclaim my dev workflow from google: now I will be able to
+dash a function and read the documentation offline with google none-the-wiser.

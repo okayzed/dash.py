@@ -1,1 +1,1 @@
-from main import list_docsets, download_docset, read_docsets, search_docsets, load_docset
+from main import list_docsets, download_docset, read_docsets, search_docsets, load_docset, run_query
